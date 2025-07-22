@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Cyber Sakhi Privacy Buddy",
+  "version": "1.0",
+  "description": "Friendly privacy buddy for kids online!",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

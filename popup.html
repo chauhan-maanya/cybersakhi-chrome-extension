@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cyber Sakhi</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 15px;
+      margin: 0;
+      background: #efebe7;
+      font-family: 'Segoe UI', 'Cardo', serif;
+      text-align: center;
+    }
+
+    .logo {
+      width: 120px;
+      border-radius: 16px;
+      margin: 10px auto;
+    }
+
+    h1 {
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+
+    .tip {
+      background: #FFFBCC;
+      padding: 12px;
+      border-radius: 10px;
+      margin: 10px 0;
+      font-size: 1em;
+      color: #000;
+    }
+
+    .action-btn {
+      background: #38B6FF;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      margin-top: 10px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    #quizOptions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    #quizOptions .option-btn {
+      padding: 8px 12px;
+      font-size: 0.95em;
+      background-color: #f06292;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    #quizFeedback {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    #status {
+      margin-top: 12px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    #loader {
+      display: none;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Logo -->
+  <img src="icon/Logo.png" alt="Cyber Sakhi Logo" class="logo" />
+
+  <!-- Title -->
+  <h1>CYBER SAKHI</h1>
+
+  <!-- Tip of the Day -->
+  <h2>Tip of the Day 💡</h2>
+  <div class="tip" id="dailyTip">Loading tip...</div>
+
+  <!-- Help Button -->
+  <button class="action-btn" id="helpButton">Help 🙋‍♀️</button>
+
+  <!-- Scan Button -->
+  <button class="action-btn" id="scanBtn">🔍 Scan This Site</button>
+  <div id="status"></div>
+
+  <!-- Loader (spinner shown during scan) -->
+  <div id="loader">
+    <svg width="40" height="40" viewBox="0 0 40 40">
+      <circle cx="20" cy="20" r="18" stroke="#38B6FF" stroke-width="4" fill="none" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="1s" repeatCount="indefinite"/>
+      </circle>
+    </svg>
+  </div>
+
+  <!-- Quiz Section -->
+  <div id="quizSection" style="margin-top: 20px;">
+    <h3>Quiz Time 🧠</h3>
+    <p id="quizQuestion">Loading question...</p>
+    <div id="quizOptions"></div>
+    <p id="quizFeedback"></p>
+  </div>
+
+  <!-- JS logic (only include ONCE!) -->
+  <script src="popup.js"></script>
+</body>
+</html>
