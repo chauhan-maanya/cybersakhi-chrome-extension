@@ -33,4 +33,49 @@ Created as part of the **Cyber Sakhi** initiative, this tool offers simple alert
 
 
 ---
+## 🎥 Demo Video - https://drive.google.com/file/d/13u2PnkfdFJfxSB0uX7Nb0wlvjfVoOb-s/view?usp=sharing
+
+---
+## 📸 Screenshots -
+| Homepage with Tips & Buttons | 
+
+<img width="1882" height="833" alt="Screenshot 2025-07-22 012420" src="https://github.com/user-attachments/assets/59836422-09e3-4cd9-906a-832428a4112e" />
+
+---
+| Website Scan – Safe Site | 
+
+<img width="1890" height="881" alt="Screenshot 2025-07-22 012526" src="https://github.com/user-attachments/assets/caf9d5d4-9c08-43d6-9d4a-ccfa2dc3e02a" />
+
+---
+| Website Scan – Unsafe Site |
+
+<img width="1919" height="912" alt="Screenshot 2025-07-22 012655" src="https://github.com/user-attachments/assets/f344467f-c90d-495b-a649-54b14472cacd" />
+
+---
+| Quiz Section |
+
+<img width="1908" height="838" alt="Screenshot 2025-07-22 012502" src="https://github.com/user-attachments/assets/6e7e014a-0c7c-4d53-8083-acf4ce773324" />
+
+---
+| Help Button |
+
+<img width="1899" height="888" alt="Screenshot 2025-07-22 211827" src="https://github.com/user-attachments/assets/47d17b7a-2cc6-4ccf-8f45-3f3aa0793a41" />
+
+---
+
+### 🌱 Why It Matters
+
+This project is more than just a browser extension—it's a step toward digital freedom and awareness for kids who often get left behind in the online safety conversation. Built under the Cyber Sakhi initiative, this tool reflects our mission: to empower the next generation with tools and knowledge to stay safe, smart, and confident online—especially those from underserved communities.
+
+Every child deserves to explore the web without fear.
+---
+
+
+
+
+
+
+
+
+
 
