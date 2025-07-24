@@ -27,7 +27,6 @@ Created as part of the **Cyber Sakhi** initiative, this tool offers simple alert
 | Technology             | Purpose                                    |
 | ---------------------- | ------------------------------------------ |
 | **HTML**               | To structure the popup interface           |
-| **CSS**                | For basic styling and layout               |
 | **JavaScript**         | To handle scan logic and DOM actions       |
 | **Chrome Manifest v3** | To define extension behavior & permissions |
 
